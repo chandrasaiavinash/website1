@@ -222,18 +222,8 @@ font-family: sans-serif;
     color: orange;
 
 }
-.icons a{
-text-decoration: none;
-color: white;
-
-}
-.icons ion-icon{
-    color: white ;
-    font-size: 30px;
-    padding-left: 14px;
-    padding-top: 5px;
-    transition: 0.5s ease;
-}
-.icons ion-icon:hover{
-    color: orange;
+@media screen and (min-width:360px){
+    .container{
+display:flex;
+    }
 }
