@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
 }
-.main{
+body{
+    background-image:  linear-gradient( rgba(0,0,0,0.5),rgba(130, 9, 122, 0.836));
+
+background-size: cover;
+
+}
+/* .main{
     width: 100%;
     background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(mountain.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
-}
+} */
 .icon{
     width: 200px;
     float: left;
@@ -222,19 +228,24 @@ font-family: sans-serif;
     color: orange;
 
 }
+
+
+
+
 @media only screen and (max-width: 768px) {
-    .main {
+    
+    /* .main {
         height: auto;
-    }
+    } */
 
     .navbar {
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
         align-items: center;
     }
 
     .icon {
-        display: none;
+        /* display: none; */
     }
 
     .logo {
@@ -244,25 +255,27 @@ font-family: sans-serif;
 
     .memu {
         width: 100%;
-        display: flex;
-        justify-content: center;
+        margin-left: -10%;
+       
+      
+        justify-content: left;
     }
 
     .search {
-        width: 100%;
-        margin-left: 0;
+        width: 70%;
+        margin-left:100px;
     }
 
     .srch {
-        width: 70%;
-        height: 30px;
-        margin-top: 10px;
+        width: 50%;
+        height: 20px;
+        margin-top: 5px;
     }
 
     .btn {
         width: 30%;
-        height: 30px;
-        margin-top: 10px;
+        height: 42px;
+        margin-top: -42px;
     }
 
     .content {
@@ -273,23 +286,28 @@ font-family: sans-serif;
     .content h1 {
         font-size: 24px;
         text-align: center;
+        letter-spacing: 10px;
+        color: red;
     }
 
     .content .par {
         text-align: center;
         padding-left: 0;
         padding-bottom: 20px;
+        margin-left: 15%;
     }
 
     .cn {
         width: 100%;
-        margin-left: 0;
+       margin-left: 50%;
     }
 
     .form {
-        width: 80%;
-        left: 10%;
-        padding: 20px;
+        width: 50%;
+        height: 350px;
+        margin-top: 125%;
+        left: 20%;
+        /* padding: 20px; */
     }
 }
 
